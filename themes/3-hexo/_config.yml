@@ -1,0 +1,135 @@
+version: 1.1.0
+# 你的头像url
+avatar: /img/avatar.jpg
+favicon: /img/avatar.jpg
+
+#如果博客放置位置不是根目录，则可以通过配置此路径解决静态文件路径错误问题
+# 比如访问地址为 yelog.org/blog 那就需要配置为 blog_path: /blog 才能正常访问
+blog_path: /lingyimalong/
+
+#链接图标 显示顺序和下面顺序一致
+link:
+  theme: color # 链接样式，color: 彩色图标  white: 黑白图标
+  items:
+    rss: /atom.xml
+    github: https://github.com/panlongshouhu
+    facebook:
+    twitter:
+    linkedin:
+    instagram:
+    reddit:
+    weibo:
+    jianshu:
+    zhihu:
+    csdn:
+    oschina:
+    juejin:
+    email:
+    qq:
+    kugou:
+    neteasemusic:
+
+##########多作者模式############
+author:
+  on: false
+  authors:
+    author1: 零壹码龙
+    author2: 
+
+# 文章分类设置
+category:
+  num: true # 分类显示文章数
+  sub: true # 开启多级分类
+  sort:
+    - 站点公告
+    - 技术文章
+    - 学习笔记
+    - 工具分享
+    - 项目经验
+  width:
+    lg: 120
+    md: 100
+    sm: 100
+
+# 快捷键
+shortcutKey: true
+
+# 左下角自定义菜单
+menu:
+  about:
+    on: true
+    url: /about
+    type: 1
+  friend:
+    on: false
+  menus:
+
+# 文末声明
+article_txt: 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。
+
+bottom_text: ©2024 零壹码龙
+
+# 底部备案号
+miit:
+  on: false
+  info: 
+  url: 
+
+reward: false
+
+searchAll: true
+
+copyright: false
+
+word_count: true
+
+# 不蒜子网站计数设置
+visit_counter:
+  on: true
+  site_visit: true
+  page_visit: true
+
+# Table of contents
+toc:
+  max_depth: 3
+
+#文章列表样式
+article_list:
+  title: '#383636'
+  datetime: '#5e5e5f'
+  hover:
+    background: '#e2e0e0'
+    color: 
+
+# 文章列表背景图
+article_bg_img:
+  on: false
+  src: 
+  opacity: 0.3
+
+# 列表样式
+list: normal
+
+# 引用块样式
+blockquote: github
+
+# table 的样式
+table: green_title
+
+# 首页背景图
+index_bg_img:
+# 其他页面背景图
+other_bg_img:
+
+# 点击图片放大样式
+img_resize: default
+
+# 代码段高亮样式
+code:
+  theme: dark-red
+
+highlight:
+  on: true
+  lineNum: true
+  copy: true
+  theme: atom-light
