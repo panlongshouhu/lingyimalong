@@ -14,7 +14,6 @@ timezone: 'Asia/Shanghai'
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://panlongshouhu.github.io/lingyimalong
-root: /lingyimalong/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -44,11 +43,17 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-syntax_highlighter: 
+syntax_highlighter: highlight.js
 highlight:
-  enable: false
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
 prismjs:
-  enable: false
+  preprocess: true
+  line_number: true
+  tab_replace: ''
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -93,7 +98,9 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: 3-hexo
 
-# Search
-search:
-  path: search.xml
-  field: post
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: git
+  repo: https://github.com/panlongshouhu/lingyimalong.git
+  branch: main
