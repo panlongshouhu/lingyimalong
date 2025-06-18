@@ -97,3 +97,26 @@ theme: 3-hexo
 search:
   path: search.xml
   field: post
+
+# Live2D 网页宠物配置
+## https://github.com/EYHN/hexo-helper-live2d
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    use: live2d-widget-model-shizuku
+  display:
+    position: left
+    width: 120
+    height: 180
+    hOffset: 0
+    vOffset: 30
+  mobile:
+    show: true
+  react:
+    opacity: 0.8
