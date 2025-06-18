@@ -58,7 +58,7 @@ shortcutKey: true
 menu:
   about:
     on: true
-    url: /about
+    url: /lingyimalong/about
     type: 1
   friend:
     on: false
@@ -67,7 +67,7 @@ menu:
 # 文末声明
 article_txt: 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。
 
-bottom_text: ©2024 零壹码龙
+bottom_text: ©2025 零壹码龙
 # 自定义页面最下方的站点版权信息
 # 如果不填，则自定义为 ©2017 author (这个author为hexo根目录_config.yml中配置的)
 
@@ -78,7 +78,7 @@ miit:
   url: 
 
 
-reward: false
+reward: true
 # true 开启打赏功能
 
 searchAll: true
