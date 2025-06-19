@@ -120,3 +120,51 @@ live2d:
     show: true
   react:
     opacity: 0.8
+
+# SEO优化配置
+# 站点地图生成
+sitemap:
+  path: sitemap.xml
+  rel: false
+  tags: true
+  categories: true
+
+# 百度站点地图
+baidusitemap:
+  path: baidusitemap.xml
+
+# RSS订阅
+feed:
+  enable: true
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+
+# 百度主动推送
+baidu_url_submit:
+  count: 10
+  host: https://panlongshouhu.github.io/lingyimalong
+  token: # 在百度站长平台获取token后填入
+  path: baidu_urls.txt
+
+# Robots.txt
+robotstxt:
+  useragent: "*"
+  disallow:
+    - /js/
+    - /css/
+    - /fonts/
+    - /live2dw/
+    - /node_modules/
+  allow:
+    - /
+  sitemap: 
+    - https://panlongshouhu.github.io/lingyimalong/sitemap.xml
+    - https://panlongshouhu.github.io/lingyimalong/baidusitemap.xml

@@ -1,0 +1,49 @@
+<% if (is_post()) { %>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "<%= page.title %>",
+  "image": "<%= page.cover || (config.url + '/img/avatar.jpg') %>",
+  "author": {
+    "@type": "Person",
+    "name": "<%= config.author %>"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "<%= config.title %>",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "<%= config.url %>/img/avatar.jpg"
+    }
+  },
+  "datePublished": "<%= page.date.toISOString() %>",
+  "dateModified": "<%= (page.updated || page.date).toISOString() %>",
+  "description": "<%= strip_html(page.description || page.excerpt || page.content).substring(0, 200) %>",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "<%= config.url + url_for(page.path) %>"
+  },
+  "keywords": "<%= page.keywords || page.tags.map(tag => tag.name).join(',') %>"
+}
+</script>
+<% } else if (is_home()) { %>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "<%= config.title %>",
+  "description": "<%= config.description %>",
+  "url": "<%= config.url %>",
+  "author": {
+    "@type": "Person",
+    "name": "<%= config.author %>"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "<%= config.url %>/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<% } %> 

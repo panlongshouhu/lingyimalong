@@ -1,8 +1,11 @@
 ---
 title: 如何使用Hexo搭建个人博客
-date: 2025-06-17 14:25:00
-tags: [Hexo, 博客, 教程, GitHub Pages]
+date: 2025-06-17 16:30:00
+updated: 2025-06-17 16:30:00
+tags: [Hexo, 教程, GitHub Pages, 博客搭建, 技术教程]
 categories: [技术文章]
+description: 详细介绍如何使用Hexo静态博客框架搭建个人博客，包括安装配置、主题选择、部署到GitHub Pages等完整流程，适合初学者学习。
+keywords: Hexo搭建博客,GitHub Pages,静态博客,个人网站,技术教程,博客部署
 ---
 
 ## 前言

@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# 禁止爬取的目录
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /live2dw/
+
+# 站点地图
+Sitemap: https://panlongshouhu.github.io/lingyimalong/sitemap.xml
+Sitemap: https://panlongshouhu.github.io/lingyimalong/baidusitemap.xml 

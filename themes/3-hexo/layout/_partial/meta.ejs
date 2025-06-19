@@ -3,6 +3,8 @@
 <% if (theme.rss){ %>
 <link rel="alternate" href="<%- theme.rss %>" title="<%= config.title %>" type="application/atom+xml">
 <% } %>
+<!-- RSS Feed -->
+<link rel="alternate" href="<%=theme.blog_path?theme.blog_path.lastIndexOf("/") === theme.blog_path.length-1?theme.blog_path.slice(0, theme.blog_path.length-1):theme.blog_path:'' %>/atom.xml" title="<%= config.title %>" type="application/atom+xml">
 <% if (theme.favicon){ %>
 <link rel="icon" href="<%- theme.favicon %>">
 <% } %>
@@ -32,3 +34,6 @@
 <script src="<%= theme.CDN.jquery_cookie %>" ></script>
 <%}%>
 <script src="<%=theme.blog_path?theme.blog_path.lastIndexOf("/") === theme.blog_path.length-1?theme.blog_path.slice(0, theme.blog_path.length-1):theme.blog_path:'' %>/js/iconfont.js?v=<%=theme.version%>" ></script>
+
+<!-- 结构化数据 -->
+<%- partial('_partial/structured-data') %>
