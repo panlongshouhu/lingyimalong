@@ -13,8 +13,8 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://panlongshouhu.github.io/lingyimalong
-root: /lingyimalong/
+url: https://lingyimalong.xyz/
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -150,7 +150,7 @@ feed:
 # 百度主动推送
 baidu_url_submit:
   count: 10
-  host: https://panlongshouhu.github.io/lingyimalong
+  host: https://lingyimalong.xyz
   token: # 在百度站长平台获取token后填入
   path: baidu_urls.txt
 
@@ -166,5 +166,5 @@ robotstxt:
   allow:
     - /
   sitemap: 
-    - https://panlongshouhu.github.io/lingyimalong/sitemap.xml
-    - https://panlongshouhu.github.io/lingyimalong/baidusitemap.xml
+    - https://lingyimalong.xyz/sitemap.xml
+    - https://lingyimalong.xyz/baidusitemap.xml

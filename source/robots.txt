@@ -8,5 +8,5 @@ Disallow: /fonts/
 Disallow: /live2dw/
 
 # 站点地图
-Sitemap: https://panlongshouhu.github.io/lingyimalong/sitemap.xml
-Sitemap: https://panlongshouhu.github.io/lingyimalong/baidusitemap.xml 
+Sitemap: https://lingyimalong.xyz/sitemap.xml
+Sitemap: https://lingyimalong.xyz/baidusitemap.xml 

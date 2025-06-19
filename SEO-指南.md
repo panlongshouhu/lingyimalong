@@ -24,7 +24,7 @@
 #### 步骤1：验证网站所有权
 1. 访问 [Google Search Console](https://search.google.com/search-console/)
 2. 点击"添加资源" → "网址前缀"
-3. 输入：`https://panlongshouhu.github.io/lingyimalong`
+3. 输入：`https://lingyimalong.xyz`
 4. 选择"HTML文件"验证方法
 5. 下载验证文件，放到 `source/` 目录
 6. 重新部署网站：`hexo clean && hexo generate && hexo deploy`
@@ -46,7 +46,7 @@
 #### 步骤1：验证网站所有权
 1. 访问 [百度站长平台](https://ziyuan.baidu.com/)
 2. 点击"用户中心" → "站点管理" → "添加网站"
-3. 输入：`https://panlongshouhu.github.io/lingyimalong`
+3. 输入：`https://lingyimalong.xyz`
 4. 选择"文件验证"
 5. 下载验证文件，放到 `source/` 目录
 6. 重新部署网站
@@ -56,7 +56,7 @@
 1. 在"站点管理"中找到你的网站
 2. 点击"数据引入" → "链接提交"
 3. 选择"sitemap"
-4. 输入：`https://panlongshouhu.github.io/lingyimalong/baidusitemap.xml`
+4. 输入：`https://lingyimalong.xyz/baidusitemap.xml`
 5. 点击"提交"
 
 #### 步骤3：开启主动推送
@@ -118,11 +118,11 @@ hexo deploy
 
 ## 🔗 重要链接
 
-- **网站首页**: https://panlongshouhu.github.io/lingyimalong
-- **站点地图**: https://panlongshouhu.github.io/lingyimalong/sitemap.xml
-- **百度站点地图**: https://panlongshouhu.github.io/lingyimalong/baidusitemap.xml
-- **RSS订阅**: https://panlongshouhu.github.io/lingyimalong/atom.xml
-- **Robots.txt**: https://panlongshouhu.github.io/lingyimalong/robots.txt
+- **网站首页**: https://lingyimalong.xyz
+- **站点地图**: https://lingyimalong.xyz/sitemap.xml
+- **百度站点地图**: https://lingyimalong.xyz/baidusitemap.xml
+- **RSS订阅**: https://lingyimalong.xyz/atom.xml
+- **Robots.txt**: https://lingyimalong.xyz/robots.txt
 
 ## ⏰ 收录时间预期
 
