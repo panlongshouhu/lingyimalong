@@ -1,6 +1,7 @@
 ---
 title: 如何使用Hexo搭建个人博客
 date: 2025-06-17 16:30:00
+comments: true  # 启用评论
 updated: 2025-06-17 16:30:00
 tags: [Hexo, 教程, GitHub Pages, 博客搭建, 技术教程]
 categories: [技术文章]

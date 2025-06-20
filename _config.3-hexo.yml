@@ -264,15 +264,15 @@ utteranc:
 # 使用说明 https://yelog.org//2020/05/23/3-hexo-comment/
 
 giscus:
-  repo: xxx/xxx             # 用于承载评论的仓库
-  repoId: xxx               # 仓库ID,从giscus网站获取
+  repo: panlongshouhu/lingyimalong             # 用于承载评论的仓库
+  repoId: R_kgDOO86v5A               # 仓库ID,从giscus网站获取
   category: General         # Discussion主题分类
-  categoryId: x             # 分类ID,从giscus网站获取
+  categoryId: DIC_kwDOO86v5M4CrvfJ             # 分类ID,从giscus网站获取
   mapping: pathname         # Github讨论与博客文章之间的映射关系, pathname url title og:title
   strict: 0                 # 是否使用严格的标题匹配, 0 1
   reactionsEnabled: 1       # 是否使用Github讨论的Reactions, 0 1
-  emitMetadata: 1           # 是否输出Github讨论的元数据, 0 1
-  inputPosition: top        # 输入框位置, top bottom
+  emitMetadata: 0           # 是否输出Github讨论的元数据, 0 1
+  inputPosition: bottom        # 输入框位置, top bottom
   theme: light              # 主题, 支持的主题请查看giscus网站
   lang: zh-CN               # 主题语言,支持的语言请查看giscus网站
   loading: lazy             # 是否启用懒加载
