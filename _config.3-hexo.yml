@@ -11,7 +11,7 @@ blog_path: /
 link:
   theme: color # 链接样式，color: 彩色图标  white: 黑白图标
   items:
-    rss: /atom.xml
+    rss:
     github: https://github.com/panlongshouhu
     facebook:
     twitter:
@@ -19,13 +19,13 @@ link:
     instagram:
     reddit:
     weibo:
-    jianshu:
+    jianshu: https://www.jianshu.com/u/3e3de17b44f7
     zhihu:
-    csdn:
+    csdn: https://blog.csdn.net/shifengbo?spm=1000.2115.3001.5343
     oschina:
-    juejin:
-    email:
-    qq:
+    juejin: https://juejin.cn/user/2946346891355416
+    email: 2609700780@qq.com
+    qq: 2609700780
     kugou:
     neteasemusic:
 
@@ -69,7 +69,7 @@ article_txt: 转载请注明来源，欢迎对文章中的引用来源进行考�
 
 bottom_text: ©2025 零壹码龙
 # 自定义页面最下方的站点版权信息
-# 如果不填，则自定义为 ©2017 author (这个author为hexo根目录_config.yml中配置的)
+# 如果不填，则自定义为 ©2025 author (这个author为hexo根目录_config.yml中配置的)
 
 # 底部备案号
 miit:
